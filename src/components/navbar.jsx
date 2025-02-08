@@ -45,7 +45,7 @@ const Navbar = () => {
         className={`mr-2  flex items-center justify-center w-8 h-8 bg-green-800 text-white rounded-full shadow-inner 
         ${i18n.language === "ar" ? "rotate-180 ml-0" : "ml-2 mr-0"}`}
       >
-        ➝
+         ➙
       </span>
     </button>
   </div>
