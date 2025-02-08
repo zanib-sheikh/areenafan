@@ -146,7 +146,7 @@ function slideTo(index) {
       i18n.language === "ar" ? "mr-2 ml-0 rotate-180" : "ml-2 mr-0"
     }`} // Adds extra gap only in Arabic
   >
-    ➡
+     ➙
   </span>
 </button>
 
@@ -291,7 +291,7 @@ function slideTo(index) {
       className={`mr-2 ml-2 flex items-center justify-center w-8 h-8 bg-green-800 text-white rounded-full shadow-inner 
       ${i18n.language === "ar" ? "mr-2 ml-0 rotate-180" : "ml-2 mr-0"}`} // Increased gap using ml-4
     >
-      ➡
+       ➙
     </span>
 </button>
       </div>
@@ -394,7 +394,7 @@ function slideTo(index) {
       className={`mr-1 ml-2 flex items-center justify-center w-8 h-8 bg-green-800 text-white rounded-full shadow-inner 
       ${i18n.language === "ar" ? "mr-2 ml-0 rotate-180" : "ml-2 mr-0"}`} // Increased gap using ml-4
     >
-      ➡
+       ➙
     </span>
   </button>
 </div>
@@ -648,7 +648,7 @@ function slideTo(index) {
       className={`mr-1 ml-2 flex items-center justify-center w-8 h-8 bg-green-800 text-white rounded-full shadow-inner 
       ${i18n.language === "ar" ? "mr-2 ml-0 rotate-180" : "ml-2 mr-0"}`} // Increased gap using ml-4
     >
-      ➡
+       ➙
     </span>
     </button>
 
