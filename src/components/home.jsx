@@ -381,12 +381,12 @@ function slideTo(index) {
     </div>
 
     {/* Description Section */}
-    <p className="items-center flex justify-center mt-6 px-4 lg:px-10 text-md text-center lg:text-center">
+    <p className="items-start flex justify-start mt-6 px-4 lg:px-10 text-md text-center lg:text-start">
       {t("scoringSystem.description")}
     </p>
 
    {/* Centered Button Container */}
-<div className="flex justify-center items-center ">
+<div className="flex lg:justify-start lg:items-start justify-center items-center ">
   {/* Stay Updated Button */}
   <button className="mt-6 flex items-center mx-auto px-2 py-2 bg-white hover:bg-gray-200 hover:text-black border-2 border-black rounded-full text-gray-900 font-semibold text-sm shadow-md transition duration-300">
     {t("scoringSystem.stayUpdated")}
