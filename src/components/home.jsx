@@ -336,7 +336,7 @@ function slideTo(index) {
       }`}
     >
       <h1 className="text-4xl font-bold text-white mb-4">{t("mobileApp.title")}</h1>
-      <p className="text-gray-100 mb-6 mt-8 leading-relaxed">
+      <p className="text-white mb-6 mt-8 leading-relaxed">
         {t("mobileApp.description")}
       </p>
     </div>
