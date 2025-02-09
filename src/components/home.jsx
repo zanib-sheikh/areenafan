@@ -103,7 +103,7 @@ function slideTo(index) {
   {/* Main Heading */}
   <h1
     className={`lg:text-3xl text-4xl  font-extrabold text-[#3C6D00] mb-4 ${
-      i18n.language === "ar" ? "lg:text-start text-center lg:pr-16 pr-0" : "lg:text-left text-center pr-0 "
+      i18n.language === "ar" ? "lg:text-start text-center lg:text-4xl text-4xl lg:pr-16 pr-0" : "lg:text-left text-center pr-0 "
     }`}
   >
     {t("home.beReady")} <span className="text-white">{t("home.experience")}</span>
@@ -507,7 +507,7 @@ function slideTo(index) {
         <hr className="border-0 border-t-2 border-white opacity-20 mb-4" />
         <p className="text-sm text-white opacity-80">
           {i18n.language === "ar"
-            ? "كل الأدوات الأساسية لبدء رحلتك مع فانتازي أرينا. انضم إلى دوري واحد، احصل على إحصائيات اللاعبين، واستمتع بإثارة رياضات الفانتازي"
+            ? "انضم إلى ما يصل لـ 2 دوري شهريًا.إحصائيات أساسية للاعبين: الوصول إلى تفاصيل أساسية مثل الأهداف، التمريرات الحاسمة، والمشاركات في المباريات."
             : "Join up to 2 leagues per month. Basic player stats: access essential player details such as goals, assists, and match appearances...more."}
         </p>
       </div>
@@ -523,7 +523,7 @@ function slideTo(index) {
         <hr className="border-0 border-t-2 border-white opacity-20 mb-4" />
         <p className="text-sm text-white opacity-80">
           {i18n.language === "ar"
-            ? "الوصول الكامل لتجربة فانتازي أرينا. انضم إلى عدة دوريات، واستمتع بتفاصيل دقيقة عن اللاعبين، وتنافس على أعلى مستوى للفوز بجوائز كبيرة."
+            ? "نضم إلى 6 دوريات شهريًا. اقتراحات تشكيلات فورية: احصل على توصيات مدعومة بالذكاء الاصطناعي لتشكيلتك بناءً على بيانات المباريات الحية. دعم عملاء أولوية"
             : "Join 6 leagues per month. Real-time lineup suggestions: get AI-powered recommendations on your lineup based on real-time match data. Priority customer support...more."}
         </p>
       </div>
@@ -539,7 +539,7 @@ function slideTo(index) {
         <hr className="border-0 border-t-2 border-white opacity-20 mb-4" />
         <p className="text-sm text-white opacity-80">
           {i18n.language === "ar"
-            ? "وسع آفاقك في عالم كرة القدم الفانتازي مع الوصول إلى دوريات إضافية وتحديثات حصرية عن اللاعبين"
+            ? "انضم إلى ما يصل لـ 4 دوريات شهريًا. إحصائيات متقدمة للاعبين: احصل على تحليلات تفصيلية تشمل دقة التمرير، التدخلات الحاسمة، وأداء اللاعب."
             : "Join up to 4 leagues per month. Advanced player stats: in-depth stats including passing accuracy, key tackles, and player form."}
         </p>
       </div>
@@ -563,7 +563,7 @@ function slideTo(index) {
       <hr className="border-0 border-t-2 border-white opacity-20 mb-4" />
       <p className="text-sm text-white px-6 mb-4 opacity-80">
         {i18n.language === "ar"
-          ? "انضم إلى ما يصل لـ 4 دوريات شهريًا.<br/>إحصائيات متقدمة للاعبين: احصل على تحليلات تفصيلية تشمل دقة التمرير، التدخلات الحاسمة، وأداء اللاعب"
+          ? "انضم إلى ما يصل لـ 4 دوريات شهريًا. إحصائيات متقدمة للاعبين: احصل على تحليلات تفصيلية تشمل دقة التمرير، التدخلات الحاسمة، وأداء اللاعب."
           : "Join up to 4 leagues per month. Advanced player stats: in-depth stats including passing accuracy, key tackles, and player form."}
       </p>
     </div>
@@ -584,7 +584,7 @@ function slideTo(index) {
       <hr className="border-0 border-t-2 border-white opacity-20 mb-1" />
       <p className="text-sm text-white px-4 mb-6 opacity-80">
         {i18n.language === "ar"
-          ? "الوصول الكامل لتجربة فانتازي أرينا. انضم إلى عدة دوريات، واستمتع بتفاصيل دقيقة عن اللاعبين، وتنافس على أعلى مستوى للفوز بجوائز كبيرة."
+          ? "نضم إلى 6 دوريات شهريًا. اقتراحات تشكيلات فورية: احصل على توصيات مدعومة بالذكاء الاصطناعي لتشكيلتك بناءً على بيانات المباريات الحية. دعم عملاء أولوية"
           : "Join 6 leagues per month. Real-time lineup suggestions: get AI-powered recommendations on your lineup based on real-time match data. Priority customer support...more."}
       </p>
     </div>
@@ -605,7 +605,7 @@ function slideTo(index) {
       <hr className="border-0 border-t-2 border-white opacity-20 mb-4" />
       <p className="text-sm text-white px-4 mb-2 opacity-80">
         {i18n.language === "ar"
-          ? "كل الأدوات الأساسية لبدء رحلتك مع فانتازي أرينا. انضم إلى دوري واحد، احصل على إحصائيات اللاعبين، واستمتع بإثارة رياضات الفانتازي"
+          ? "انضم إلى ما يصل لـ 2 دوري شهريًا.إحصائيات أساسية للاعبين: الوصول إلى تفاصيل أساسية مثل الأهداف، التمريرات الحاسمة، والمشاركات في المباريات."
           : "Join up to 2 leagues per month. Basic player stats: access essential player details such as goals, assists, and match appearances...more."}
       </p>
     </div>
@@ -683,7 +683,7 @@ function slideTo(index) {
         {i18n.language === "ar" ? "قسيمة هدية (على سبيل المثال: متجر نايكي)" : "Gift Vouchers (e.g., Nike Store)."}
       </li>
       <li className="text-white mb-1">
-        {i18n.language === "ar" ? "ائتمان محطة الجوع" : "HungerStation Credits."}
+        {i18n.language === "ar" ? "رصيد محطة هنقرستيشن" : "HungerStation Credits."}
       </li>
       <li className="text-white mb-1">
         {i18n.language === "ar" ? "الإقامة في فندق فاخر" : "Luxury Hotel Staycations."}
