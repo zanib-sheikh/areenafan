@@ -336,7 +336,7 @@ function slideTo(index) {
       }`}
     >
       <h1 className="text-4xl font-bold text-white mb-4">{t("mobileApp.title")}</h1>
-      <p className="text-gray-200 mb-6 mt-8 leading-relaxed">
+      <p className="text-gray-100 mb-6 mt-8 leading-relaxed">
         {t("mobileApp.description")}
       </p>
     </div>
@@ -359,7 +359,7 @@ function slideTo(index) {
       alt="Mobile App"
       className="w-48 sm:w-60 mb-4 h-auto object-contain"
     />
-    <p className="text-gray-400 leading-relaxed">
+    <p className="text-gray-100 leading-relaxed">
       {t("mobileApp.description")}
     </p>
   </div>
@@ -563,7 +563,7 @@ function slideTo(index) {
       <hr className="border-0 border-t-2 border-white opacity-20 mb-4" />
       <p className="text-sm text-white px-6 mb-4 opacity-80">
         {i18n.language === "ar"
-          ? "وسع آفاقك في عالم كرة القدم الفانتازي مع الوصول إلى دوريات إضافية وتحديثات حصرية عن اللاعبين"
+          ? "انضم إلى ما يصل لـ 4 دوريات شهريًا.<br/>إحصائيات متقدمة للاعبين: احصل على تحليلات تفصيلية تشمل دقة التمرير، التدخلات الحاسمة، وأداء اللاعب"
           : "Join up to 4 leagues per month. Advanced player stats: in-depth stats including passing accuracy, key tackles, and player form."}
       </p>
     </div>
